@@ -15,14 +15,14 @@ def fetch_plain_text(title: str, full: bool = False, verbose: bool = False) -> s
     params = {
         "action": "query",
         "format": "json",
-        "formatversion": 2,      # pages becomes a list, not a dict keyed by id
+        "formatversion": 2,  # pages becomes a list, not a dict keyed by id
         "titles": title,
         "prop": "extracts",
         "explaintext": 1,
-        "redirects": 1,          # follow redirects
+        "redirects": 1,  # follow redirects
     }
     if not full:
-        params["exintro"] = 1    # intro section only
+        params["exintro"] = 1  # intro section only
 
     response = requests.get(
         API_URL,
@@ -47,8 +47,12 @@ def main() -> int:
         description="Wikipedia article as plain text",
     )
     parser.add_argument("article_name")
-    parser.add_argument("-f", "--full", action="store_true",
-                        help="whole article instead of just the intro")
+    parser.add_argument(
+        "-f",
+        "--full",
+        action="store_true",
+        help="whole article instead of just the intro",
+    )
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
 
