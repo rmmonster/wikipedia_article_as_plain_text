@@ -5,7 +5,7 @@ description = "Wikipedia article as plain text"
 authors = [
     {name = "Philipp Seelig",email = "git.phil@daxbau.net"}
 ]
-requires-python = ">=3.13,<3.14"
+requires-python = ">=3.13,<3.15"
 dependencies = [
 ]
 
