@@ -28,3 +28,6 @@ cd wikipedia_article_as_plain_text
 poetry run download --full 'Article Name'
 ```
 
+## Disclaimer
+
+The tool was written with the help of AI tools.
