@@ -14,8 +14,17 @@ poetry install
 
 ### Usage
 
+#### For the introductory paragraph
+
 ```
 cd wikipedia_article_as_plain_text
 poetry run download 'Article Name'
+```
+
+#### For the full article
+
+```
+cd wikipedia_article_as_plain_text
+poetry run download --full 'Article Name'
 ```
 
