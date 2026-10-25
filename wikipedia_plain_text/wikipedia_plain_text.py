@@ -8,7 +8,7 @@ import requests
 API_URL = "https://en.wikipedia.org/w/api.php"
 
 # Wikimedia requires an identifiable User-Agent: tool name/version + contact.
-USER_AGENT = "WikipediaPlainText/0.1 (https://none/; git.phil@daxbau.net)"
+USER_AGENT = "WikipediaPlainText/0.1.2 (https://github.com/rmmonster/wikipedia_article_as_plain_text; git.phil@daxbau.net)"
 
 
 def fetch_plain_text(title: str, full: bool = False, verbose: bool = False) -> str:
