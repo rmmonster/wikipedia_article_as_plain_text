@@ -37,3 +37,7 @@ poetry run download --full 'Article Name'
 ## Disclaimer
 
 The tool was written with the help of AI tools.
+
+## License
+
+[CC0](https://creativecommons.org/public-domain/#cc0)
