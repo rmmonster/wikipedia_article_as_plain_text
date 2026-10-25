@@ -4,7 +4,7 @@
 
 wikipedia plain text is a CLI tool to download wikipedia articles as plain text via command line.
 
-This tool does not enforce the proper conduct requested by the wikipedia API. The author trusts the user to conduct themselves properly.
+This tool does not enforce the [proper conduct requested by the wikipedia API](https://www.mediawiki.org/wiki/API:Etiquette). The author trusts the user to [conduct themselves properly](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk).
 
 ### Install
 
