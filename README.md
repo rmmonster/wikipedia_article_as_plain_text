@@ -6,6 +6,10 @@ wikipedia plain text is a CLI tool to download wikipedia articles as plain text 
 
 ### Install
 
+Required tools:
+- [git](https://git-scm.com/)
+- [poetry](https://python-poetry.org/)
+
 ```
 git clone https://github.com/rmmonster/wikipedia_article_as_plain_text.git
 cd wikipedia_article_as_plain_text
